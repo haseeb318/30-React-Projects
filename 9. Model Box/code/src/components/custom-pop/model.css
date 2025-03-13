@@ -1,0 +1,80 @@
+.main{
+    margin-top: 10px;
+    margin-left: 45vw;
+}
+
+.main button{
+    width:  10rem;
+    padding: 8px;
+    background-color: #493D9E;
+    color: white;
+    border-radius: 4px;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.model {
+  position: fixed;
+  z-index: 1;
+  padding-top: 150px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(226, 226, 226);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid red;
+    width: 40%;
+    animation-name: animateModal;
+    animation-duration: 0.5s;
+    border-radius: 8px;
+  }
+
+.close-modal-icon{
+    cursor: pointer;
+    font-size:19px;
+    float: right;
+    font-weight: bold;
+}
+
+.header {
+    padding: 16px 16px;
+    background-color: #FFB22C;
+    color: #fff;
+    border-top-right-radius:8px ;
+    border-top-left-radius:8px ;
+  }
+  
+  .body {
+    padding: 2px 16px;
+    height: 200px;
+  }
+  
+  .footer {
+    padding: 16px 16px;
+    background-color: #FFB22C;
+    color: #fff;
+    border-bottom-right-radius:8px ;
+    border-bottom-left-radius:8px ;
+  }
+  
+  @keyframes animateModal {
+    from {
+      top: -200px;
+      opacity: 0;
+    }
+  
+    to {
+      top: 0;
+      opacity: 1;
+    }
+  }
