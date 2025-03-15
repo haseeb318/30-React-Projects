@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { BsArrowLeftCircleFill, BsArrowRightCircleFill } from "react-icons/bs";
 import "./styles.css";
+
 const ImageSlider = ({ url, limit, page = 10 }) => {
+  
   const [image, setImage] = useState([]);
   const [currentSlide, setCurrenSlide] = useState(0);
   const [errorMsg, setErrorMsg] = useState(null);
@@ -35,6 +37,7 @@ const ImageSlider = ({ url, limit, page = 10 }) => {
   if (loading) {
     return <div>Please wait loading....</div>;
   }
+
   if (errorMsg !== null) {
     return <div>Error Occured {errorMsg}</div>;
   }
@@ -46,8 +49,11 @@ const ImageSlider = ({ url, limit, page = 10 }) => {
   const handleNext = () => {
     setCurrenSlide(currentSlide === image.length - 1 ? 0 : currentSlide + 1);
   };
+
   return (
+
     <div className="container">
+
       <BsArrowLeftCircleFill
         onClick={handlePrevious}
         className="arrow arrow-left"
@@ -68,11 +74,16 @@ const ImageSlider = ({ url, limit, page = 10 }) => {
             />
           ))
         : null}
+
+
       <BsArrowRightCircleFill
         onClick={handleNext}
         className="arrow arrow-right"
       />
+
+
       <span className="circle-indicator">
+
         {image && image.length
           ? image.map((_, index) => (
               <button
@@ -86,7 +97,10 @@ const ImageSlider = ({ url, limit, page = 10 }) => {
               ></button>
             ))
           : null}
+
       </span>
+
+
     </div>
   );
 };
