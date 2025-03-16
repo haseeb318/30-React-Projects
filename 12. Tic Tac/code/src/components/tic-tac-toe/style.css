@@ -1,0 +1,21 @@
+.tic-tac-toe-component {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.square {
+  border: 1px solid red;
+  float: left;
+  font-size: 40px;
+  height: 100px;
+  text-align: center;
+  padding: 0px;
+  width: 100px;
+  margin-right: -1px;
+  margin-top: -1px;
+  cursor: pointer;
+}
+
