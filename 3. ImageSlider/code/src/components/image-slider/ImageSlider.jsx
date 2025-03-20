@@ -66,6 +66,7 @@ const ImageSlider = ({ url, limit, page = 10 }) => {
               key={imgItem.id}
               alt={imgItem.download_url}
               src={imgItem.download_url}
+              
               className={
                 currentSlide == index
                   ? "current-image"

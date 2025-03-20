@@ -1,0 +1,32 @@
+.search-main-container{
+    /* background-color: green; */
+    margin: 0 auto;
+    width: 40%;
+    height: 40px;
+    text-align: center;
+    margin-top: 40vh ;
+
+}
+.search-input{
+    width: 80%;
+    /* background-color: gray; */
+    & input{
+        width: 100%;
+        padding: 8px;
+        border-radius: 4px;
+
+    }
+}
+
+.serach-data-display{
+    text-align: left;
+    padding: 12px;
+    /* background: gray; */
+    width: 80%;
+    /* box-sizing: border-box; */
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    & ul{
+        list-style: none;
+    }
+}
