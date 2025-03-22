@@ -1,0 +1,64 @@
+.main-cont {
+  width: max(30%, 300px);
+  height: 45vh;
+  margin: 20px auto;
+  background-color: white ;
+  color: rgb(108, 108, 232);
+  border-radius: 8px;
+  box-shadow: 1px 1px 2px 2px gray;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h3 {
+  padding: 24px 0px 12px 18px;
+}
+.weather-display {
+  padding-top: 12px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 80%;
+  text-align: center;
+  /* background-color: aliceblue; */
+}
+.weather-info {
+  width: 100%;
+  height: inherit;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+
+}
+
+input,
+button {
+  margin:0px 2px ;
+  padding: 8px;
+  border-radius: 4px;
+}
+button {
+
+  background-color: rgba(129, 129, 245, 0.937);
+  color: white;
+  &:hover {
+    cursor: pointer;
+  }
+}
+.footer {
+  display: flex;
+  border-top: 2px solid grey;
+  padding-top: 12px ;
+  & p{
+    
+    width: 50%;
+    text-align: center;
+  }
+}
+.temp {
+  font-size: x-large;
+  padding-top: 47px;
+  font-weight: 600;
+}
+.country {
+  font-size: 16px;
+}
+
