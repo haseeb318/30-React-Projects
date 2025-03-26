@@ -1,0 +1,47 @@
+.title{
+    text-align: center;
+    /* color: white; */
+
+}
+.form2{
+    width: 40%;
+    height: auto;
+    margin: 50px auto;
+    background-color: aqua;
+    padding: 12px;
+    border-radius: 6px;
+}
+
+.form2-controls{
+    padding: 0.8rem;
+}
+.form2-controls label{
+    font-weight: bold;
+}
+.form2-controls input{
+    width: 90%;
+    border-radius: 4px;
+    padding: 8px;
+
+}
+span{
+    display: block;
+    color: red;
+    padding-left: 8px;
+}
+.action2{
+    padding: 0.8rem  3rem 0.8rem 0.8rem; 
+    display: flex;
+    justify-content: end;
+    align-content: space-between;
+    /* background-color: gray; */
+}
+.action2  button{
+    width: 20%;
+    height: 2rem;
+    border-radius: 4px;
+    background-color: #C4D7FF;
+    cursor: pointer; 
+
+  }
+

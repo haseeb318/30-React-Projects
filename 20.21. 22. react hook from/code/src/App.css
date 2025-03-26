@@ -1,0 +1,37 @@
+.form{
+  width: 30%;
+  height: auto;
+  margin: 0 auto;
+  border: 1px solid #C4D7FF;
+  padding: 16px;
+  background-color: #87A2FF;
+  box-shadow: 1px 1px 2px gray;
+}
+.form-controls{
+  padding: 4px 0px;
+}
+.form-controls label{
+  font-weight: bold;
+}
+.form-controls input{
+  width: 90%;
+  border-radius: 4px;
+  padding: 8px;
+ 
+}
+.action{
+  padding: 12px;
+}
+.action button{
+  /* padding: 12px; */
+  width: 20%;
+  height: 2rem;
+  border-radius: 4px;
+  background-color: #C4D7FF;
+  cursor: pointer;
+
+}
+.invalid{
+  color: red;
+  font-weight:bold;
+}
