@@ -14,6 +14,7 @@ const PersonalInfo =({errors})=>{
         <div className="form2-controls"> 
             <label htmlFor="">First Name :</label>
             <input type="text" 
+            placeholder="First Name"
             {...register("firstName",{required:"first name is required"})}
             />
             {errors.firstName && <span>{errors.firstName.message}</span>}
@@ -22,6 +23,7 @@ const PersonalInfo =({errors})=>{
         <div className="form2-controls">
             <label htmlFor="">Last Name :</label>
             <input type="text" 
+            placeholder="Last Name"
             {...register("lastName",{required:"last name is required"})}
             />
             {errors.lastName && <span>{errors.lastName.message}</span>}
@@ -30,6 +32,7 @@ const PersonalInfo =({errors})=>{
         <div className="form2-controls">
             <label htmlFor="">Email :</label>
             <input type="email" 
+            placeholder="Email"
             {...register("email",{
                 required:"email is required", 
                 pattern: {

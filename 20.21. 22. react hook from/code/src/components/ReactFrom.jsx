@@ -2,6 +2,7 @@
 import {useForm} from "react-hook-form"
 import ConditionalForm from "./ConditionalForm"
 const ReactFrom = () => {
+  
     const {register, handleSubmit,reset,
         formState: { errors }} = useForm()
     const onSubmit = (data)=>{console.log(data)

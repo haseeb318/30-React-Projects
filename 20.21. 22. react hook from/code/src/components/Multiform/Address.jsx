@@ -8,8 +8,9 @@ const Address =({errors})=>{
             <hr />
 
             <div className="form2-controls">
-                <label htmlFor="">Address :</label>
+                <label htmlFor="">Province :</label>
                 <input type="text" 
+                placeholder="Province"
                 {...register("address",{required:"address is required"})}
                  />
                  {errors.address && <span>{errors.address.message}</span>}
@@ -19,6 +20,7 @@ const Address =({errors})=>{
                 <label htmlFor="">City :</label>
                 <br />
                 <input type="text" 
+                placeholder="city"
                 {...register("city",{required:"city is required"})}
                  />
                  {errors.city && <span>{errors.city.message}</span>}

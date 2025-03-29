@@ -6,11 +6,11 @@ import MultiStepFrom from './components/Multiform/MultiStepFrom'
 function App() {
   return(
     <>
-    <ReactFrom></ReactFrom>
+    {/* <ReactFrom/> */}
 
-    {/* <ConditionalForm></ConditionalForm>  */}
+    {/* <ConditionalForm/>  */}
     
-    {/* <MultiStepFrom/> */}
+    <MultiStepFrom/>
 
     {/* <MainFrom/> */}
     </>
