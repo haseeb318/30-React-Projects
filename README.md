@@ -155,4 +155,4 @@ This project is open-source and available under the MIT License.
 
 **Haseeb Ahmed**
 
-If you found this repository useful, consider giving it a ⭐ on GitHub.
+If you found this repository useful, consider giving it a ⭐⭐⭐ on GitHub.
